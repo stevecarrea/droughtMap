@@ -15,3 +15,5 @@ for filename in os.listdir(path):
 exportname = "output.gif"
 kargs = { 'duration': 0.1 }
 imageio.mimsave(exportname, frames, 'GIF', **kargs)
+
+# Image resize, normalize, compress 
