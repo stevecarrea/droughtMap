@@ -13,5 +13,5 @@ for filename in os.listdir(path):
 
 # Save them as frames into a gif 
 exportname = "output.gif"
-kargs = { 'duration': 0.2 }
+kargs = { 'duration': 0.1 }
 imageio.mimsave(exportname, frames, 'GIF', **kargs)
